@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 
-export class AutoTable extends Comment {
+class AutoTable extends Comment {
+    render() {
+        return <table></table>;
+    }
+}
+
+class AutoColumn extends Component {
 
 }
 
-export class Column extends Component {
-
-}
+module.exports = {
+    AutoTable,
+    AutoColumn
+};

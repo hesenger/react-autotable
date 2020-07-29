@@ -4,6 +4,7 @@
   "description": "Autotable is a simple and fun React component to autogenerate tables based on json data.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,5 +31,10 @@
   "homepage": "https://github.com/hesenger/react-autotable#readme",
   "dependencies": {
     "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-react": "^7.10.4"
   }
 }
