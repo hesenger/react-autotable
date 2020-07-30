@@ -7,7 +7,9 @@ class AutoTable extends Comment {
 }
 
 class AutoColumn extends Component {
-
+    render() {
+        
+    }
 }
 
 module.exports = {
